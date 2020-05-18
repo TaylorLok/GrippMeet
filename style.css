@@ -1,5 +1,17 @@
 body{
-  
-  color : blue;
+  background-color: teal;
+  color :white;
+  text-align: center;
 }
-
+#container{
+  border: 1px solid white;
+  align-content: center;
+  margin: 0 auto;
+}
+button{
+  border: none;
+  padding: 16px 32px;
+  text-decoration: teal;
+  margin: 8px 4px;
+  cursor: pointer;
+}
