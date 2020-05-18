@@ -6,21 +6,30 @@
      
      <title> Welcome to GRIPP </title>
      <link href="style.css" rel="stylesheet"/>
+     <script src="home.js"></script>
  </head>
 
  <body>
 <div id="container">
-      <h1> Hello, you are welcome </h1>
+      <h1> Hello, Welcome to the Gripp Meeting App </h1>
       <h2> Hope you are having a great time with us! </h2>
+      <h3> Are you new to our platform? click Sign up for more!</h3>
 
     <form>
         <div class="clearfix">
-            <button type="button" class="signupbtn">Sign Up</button>
-            <button type="button" class="loginbtn">Login</button>
+            <button type="button" id="signupbtn">Sign Up</button>
+            <button type="button" id="loginbtn">Login</button>
           </div>
     </form>
-</div>
+    
+    <form name="myForm" action="https://www.w3schools.com/action_page.php"onsubmit="return validateForm()" method="post">
+    Company Name: <input type="text" name="fname">
+    Company reg: <input type="text" name="fname">
 
+
+    <input type="submit" value="Submit">
+    </form>
+</div>
  </body>
 
 </html>
